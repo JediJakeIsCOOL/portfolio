@@ -24,6 +24,8 @@ body{
 
 .bio{
     background: #234466;
+    margin-top:20px;
+
     
 }
 .skills{
@@ -108,8 +110,9 @@ body{
 .nav{
     text-decoration: none !important;
     color: white;
-    display: inline-block;
-    margin-left: 40px
+    display: block;
+    margin: initial;
+    width: 1%;
    
 }
 .email{
@@ -155,4 +158,8 @@ body{
     justify-content: center;
     
 }
-
+.githubnav{
+    background-color: white;
+    display: inline-block;
+    margin-right: 75%;
+}
