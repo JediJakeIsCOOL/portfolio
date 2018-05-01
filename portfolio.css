@@ -4,7 +4,7 @@ body{
 .navbar{
     background-color: #234466;
     text-decoration: none !important;
-    border: white 2px solid;
+    border-bottom: white 1px solid;
    
     
     
@@ -16,10 +16,10 @@ body{
     margin: auto;
 }
 .mypic{
-    width: 200px;
-    height: 200px;
     display: block;
     margin: auto;
+    border-radius: 50px;
+    
 }
 
 .bio{
@@ -71,6 +71,7 @@ body{
 .cImg{
     display: block;
     margin: auto;
+    margin-bottom: 20px;
     
 }
 body{
@@ -118,6 +119,9 @@ body{
 .email{
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
 }
 .blackjack{
     background-color: #234466;
@@ -162,4 +166,12 @@ body{
     background-color: white;
     display: inline-block;
     margin-right: 75%;
+}
+.vid{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#emailA{
+    text-decoration: none !important;
 }
