@@ -1,14 +1,13 @@
 body{
-    background-color:#1f2625
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+
 }
-.navbar{
-    background-color: #234466;
-    text-decoration: none !important;
-    border-bottom: white 1px solid;
-   
+
     
     
-}
+
 .imgSkills{
     height: 100px;
     width: 100px;
@@ -16,16 +15,22 @@ body{
     margin: auto;
 }
 .mypic{
-    display: block;
-    margin: auto;
+    margin-top: 20px;
+    margin: 0 auto;
     border-radius: 50px;
+    padding: 10px;
+    border: 1px solid black;
     
 }
 
 .bio{
-    background: #234466;
+    border-bottom: 1px double black;
+    border-top: 1px double black;
     margin-top:20px;
-
+    font-size: 1.5em;
+    text-align: center;
+    padding: 100px 20px;
+    line-height: 3em;
     
 }
 .skills{
@@ -74,12 +79,6 @@ body{
     margin-bottom: 20px;
     
 }
-body{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    width: 100%;
-
-}
 .bjmain{
     display: block;
     margin: auto;
@@ -111,9 +110,10 @@ body{
 .nav{
     text-decoration: none !important;
     color: white;
-    display: block;
-    margin: initial;
-    width: 1%;
+    margin-right: 40px;
+    padding: 5px;
+    width: 100%;
+    background-color: #1f2625;
    
 }
 .email{
