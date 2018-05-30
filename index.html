@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
    
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container-fluid fixed-top">
-    <nav class="navbar-nav fixed-top">
+    <nav class="navbar-nav fixed-top navBar">
         
             
                 <ul class="nav nav-pills navbar-right">
@@ -26,8 +27,9 @@
         
       </nav>
     </div>
-        
+        <div class="container-fluid header">
         <h1 id="text" style="padding:100px"> Jake Anderson's web development and software engineering.</h1>
+    </div>
     <div class="container-fluid bio">
         <div class="row">
             <div class="col-2 col-md-offset-5">
@@ -40,7 +42,7 @@
     </div>
     </div>
     <h2 style="display:flex; justify-content: center" id="skillsLink">Developer Skills</h2>
-    <div class="container skills" >
+    <div class="container-fluid skills" >
         <div id='skills title'>
              
         </div>
@@ -59,14 +61,19 @@
                     <p><img class="imgSkills" src="images/bootstrap.png"></p></div>
                     <div class='col-4'>
                     <p><img class="imgSkills" src='images/javascript.png'></p></div>
+                </div>
+                <div class= 'row'>
                     <div class='col-4'>
                         <p><img class="imgSkills" src='images/postgresql.png'></p></div>
                         <div class='col-4'>
-                            <p><img class="imgSkills" src='images/nodejs.png'></p></div>
-                </div>    
+                            <p><img class="imgSkills" src='images/nodejs.png'></p></div>  
+                        <div class='col-4'>
+                        <p><img class="imgSkills" src='images/react-logo.png'></p></div>
+                </div>
+              
         </div>
         <div id="projects"><h2 id="projectsLink">Projects</h2></div>
-    <div class="container projects">
+    <div class="container-fluid projects">
         
         <div class="row">
             <div class="col-6">
@@ -97,8 +104,9 @@
                     </div>    
             </div>
             </div>
-            <div id='contact-title'><h2>Contact Info</h2></div>
-        <div class="container contact-info" id="contact-infoLink">
+            
+        <div class="container-fluid contact-info" id="contact-infoLink">
+                <h2>Contact Info</h2>
                     <a href='https://www.linkedin.com/in/jacob-anderson-30b658129/'><img class='cImg' style="height: 50;" src= "images/linkedin4.png"></a>
             
                     <a href='https://github.com/JediJakeIsCOOL'><img class='cImg' style="margin-bottom: 40px" src="images/github3.png"></a>
